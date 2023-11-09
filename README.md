@@ -46,3 +46,21 @@ else
     a. clicking the button takes to profile page
 
     b. hover over it to reveal Favorites, My Setups and Logout buttons
+
+## Notes for deployment
+
+Setting Up the Site Record
+
+Before configuring the social application, make sure the Sites framework is correctly set up:
+
+In the admin panel, look for the Sites section.
+
+Click on Sites to view the site records.
+
+You'll likely see a site with the domain example.com - click on it to edit.
+
+Change the domain name to localhost and display name to localhost:8000 for your development environment. Save the changes.
+
+Note: In a production environment, you would use your actual domain name.
+
+Also must do some change in the credentials in Google Cloud Console
