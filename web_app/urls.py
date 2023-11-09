@@ -2,7 +2,7 @@ from django.urls import path
 from .views import SignUpView
 from django.contrib.auth.views import LogoutView
 from django.contrib.auth import views as auth_views
-from web_app.views import home
+from .views import home, AddSetupView, FavoritesView
 
 urlpatterns = [
   path('', home, name='home'),
