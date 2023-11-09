@@ -31,7 +31,11 @@ NavBar:
 
 1. Logo that takes to home page
 
+if not logged in
+
 1. Login/Register
+
+else
 
 1. new setup button
 
