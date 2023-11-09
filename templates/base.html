@@ -1,14 +1,17 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- head elements -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <!-- Logo -->
             <a href="{% url 'home' %}">
-                <img src="{% static 'images/logo.png' %}" alt="Logo" />
+                <img src="{% static 'images/logo.png' %}" alt="Logo" class="logo"/>
             </a>
 
             <!-- Authenticated User Links -->

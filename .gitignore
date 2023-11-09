@@ -122,3 +122,5 @@ node_modules/
 
 # poetry
 poetry.lock
+
+staticfiles

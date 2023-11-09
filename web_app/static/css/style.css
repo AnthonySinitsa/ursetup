@@ -1,3 +1,7 @@
+body {
+  background-color: #323437;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
@@ -43,4 +47,9 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.logo {
+  width: 150px;
+  height:auto;
 }
