@@ -6,7 +6,7 @@ drag and drop images for users to show how we have setup
 nav bar should have logo that takes to home page, profile with a dropdown, notifications
 profile dropdown should have home, favorites, my setups, profile, logout
 add a button to add a new setup if your logged in
-favorites page has 
+favorites page has
 
 home page should list all the setups nicely
 each setup should show amount of views it has, username of who created it, title, date posted, how much spent, amount of likes it has, and show the description
@@ -21,3 +21,6 @@ description
 URL with button to copy link to the setup, report button send admin notification
 list all parts and the costs, should have a total price at the bottom
 comment section, with a most popular and latest option for comments
+
+each setup will have a list of Parts, Items, Ingredients or Steps.
+a setup will have to have at least one of something, the item must have a title, a description, a url box to the url to purchase an item, an image section to also drag and drop(for DIY projects), quantity of item and price of item, price should multiply by quantity, and there should be a total price of the entire setup.
