@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Your Site Name{% endblock %}</title>
+    {% block styles %}
+    <!-- Your stylesheets here -->
+    {% endblock %}
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <header>
+        <!-- Site header here -->
+        <nav>
+            <!-- Navigation bar here -->
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Main content will go here when you override this block in child templates -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <!-- Site footer here -->
+    </footer>
+
+    {% block scripts %}
+    <!-- Your scripts here -->
+    {% endblock %}
+</body>
+</html>
