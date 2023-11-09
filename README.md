@@ -24,3 +24,25 @@ comment section, with a most popular and latest option for comments
 
 each setup will have a list of Parts, Items, Ingredients or Steps.
 a setup will have to have at least one of something, the item must have a title, a description, a url box to the url to purchase an item, an image section to also drag and drop(for DIY projects), quantity of item and price of item, price should multiply by quantity, and there should be a total price of the entire setup.
+
+add the ability to signup with Google
+
+NavBar:
+
+1. Logo that takes to home page
+
+if not logged in
+
+1. Login/Register
+
+else
+
+1. new setup button
+
+1. Notification icon (that will display new followers and new comments)
+
+1. when logged in, show users pfp and username,
+
+    a. clicking the button takes to profile page
+
+    b. hover over it to reveal Favorites, My Setups and Logout buttons

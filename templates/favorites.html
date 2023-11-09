@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Favorites</h2>
+<ul>
+  {% for setup in favorites %}
+    <li>{{ setup.title }} - {{ setup.description }}</li>
+  {% empty %}
+    <li>No favorites added yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}
